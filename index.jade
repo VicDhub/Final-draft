@@ -1,0 +1,88 @@
+doctype html
+html(lang="en")
+	head
+		title Victor
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		meta(name="description" content="Jade website template")
+		meta(name="keywords" content="victor, muthangya, template, html, sass, vquery")
+		meta(name="author" content="Victor Muthangya")
+		link(rel="stylesheet" href="assets/css/main.css")
+	body
+
+		section(id="hero")
+			include ./letters/v.html
+			header
+				.nav-toggle
+					p Menu
+					span
+				ul(class="nav")
+					li #[a(href="#about") About]
+					li #[a(href="#full-slide") Work]
+					li #[a(href="#contact") Contact]
+			.wrapper
+				.welcome
+					h1 #[strong Victor] Victor Template
+					p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
+				.photographer
+					img(src="assets/img/hero.png" alt="Photographer")
+		section(id="about")
+			include ./letters/c.html
+			.wrapper
+				.camera
+					img(src="assets/img/camera.png" alt="Camera")
+				.blurb
+					h2 My name is (strong="", Victor="") 
+					p Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.#[br]#[br]Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+					.social
+						a(href="#") #[i(class="icon-facebook")]
+						a(href="#") #[i(class="icon-instagram")]
+						a(href="#") #[i(class="icon-twitter")]
+						a(href="#") #[i(class="icon-pinterest-p")]
+		section(id="full-slide")
+			include ./letters/t.html
+			ul(class="banner")
+				li(class="active")
+				li
+				li
+			i(class="icon-chevron-thin-left prev")
+			i(class="icon-chevron-thin-right next")
+		section(id="featured")
+			include ./letters/o.html
+			.wrapper
+				.blurb
+					h2 #[strong Ut enim] ad minim
+					p Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+				.featured
+					img(src="assets/img/featured.jpg" alt="Featured")
+		section(id="three-slide")
+			include ./letters/r.html
+			.wrapper
+				ul(class="slider")
+					li(class="back")
+						img(src="assets/img/three-slide/logO\ logO..jpg")
+					li(class="current")
+						img(src="assets/img/three-slide/UQUALITY\ ASSURANCE\ cover\ 3..jpg")
+					li(class="front")
+						img(src="assets/img/three-slide/thumb-3.jpg")
+					li
+						img(src="assets/img/three-slide/thumb-4.jpg")
+			i(class="icon-chevron-thin-left prev")
+			i(class="icon-chevron-thin-right next")
+		section(id="contact")
+			include ./letters/d.html
+			.wrapper
+				.blurb
+					h2 #[strong Say] Hello
+					p Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+				form
+					input(type="email" placeholder="Your Email")
+					input(type="text" placeholder="Subject")
+					textarea(placeholder="Message")
+					input(type="submit" value="Send Message")
+			p(class="copyright") &copy; Victor 2024
+
+		script(src="https://victor.googleapis.com/ajax/libs/vquery/2.2.4/vquery.min.js")
+		script window.vQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')
+		script(src="assets/js/functions-min.js")

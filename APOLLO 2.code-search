@@ -1,0 +1,45 @@
+# Query: APOLLO
+# ContextLines: 1
+
+
+12 results - 3 files
+
+index.html:
+  8      <meta name="description" content="Jade website template">
+  9:     <meta name="keywords" content="apollo, jade, template, html, sass, jquery">
+  10      <meta name="author" content="Bucky Maler">
+
+index.jade:
+   3  	head
+   4: 		title Apollo
+   5  		meta(charset="utf-8")
+
+   8  		meta(name="description" content="Jade website template")
+   9: 		meta(name="keywords" content="apollo, jade, template, html, sass, jquery")
+  10  		meta(name="author" content="Bucky Maler")
+
+  25  				.welcome
+  26: 					h1 #[strong Apollo] Jade Template
+  27  					p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
+
+  35  				.blurb
+  36: 					h2 My name is #[strong Apollo]
+  37  					p Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.#[br]#[br]Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+
+  83  					input(type="submit" value="Send Message")
+  84: 			p(class="copyright") &copy; Apollo 2016
+  85  
+
+README.md:
+   1: # [Apollo: Jade website template](http://buckymaler.com/apollo)
+   2  
+   3: ### [Featured on Freebiesbug](http://freebiesbug.com/code-stuff/apollo-one-page-html-template-photographers/)
+   4  
+   5: Apollo is a minimal, thoughtfully designed single page website template, and serves as the perfect showcase for a professional photographer.
+   6  
+   7: Here you can find the original [PSD](https://symu.co/freebies/templates-4/apollo-psd-template/)
+   8  by Jakub Kowalczyk.
+
+  13  
+  14: [LIVE PREVIEW](http://buckymaler.com/apollo)
+  15  
